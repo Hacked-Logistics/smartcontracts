@@ -13,3 +13,8 @@ eosio-cpp -I include -o {smart contract file name}.wasm src/{smart contract file
 - To deploy smart contract
 cleos -u {node address} set contract {contract account name} . --abi {smart contract file name}.abi -p {contract account name}@active
 {node address} - for test net currently we use https://testnet.telos.caleos.io
+
+
+You can interact with the smart contract here on the testnet:
+
+https://telos-test.bloks.io/account/hacklogistic?loadContract=true&tab=Tables&table=sensors&account=hacklogistic&scope=hacklogistic&limit=100&action=grantuser
